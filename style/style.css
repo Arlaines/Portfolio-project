@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --primary-color: #ea98a6;
+  --secondary-color: #f8dadf;
   --heading-font-family: "Playfair Display", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -135,8 +135,14 @@ p {
   border-radius: 10px;
 }
 .logo {
-  max-height: 40px;
+  max-height: 60px;
+  font-size: 30px;
+  color: var(--primary-color);
 }
+.logo-letters {
+  font-family: var(--heading-font-family);
+}
+
 nav {
   padding: 20px 0;
 }
